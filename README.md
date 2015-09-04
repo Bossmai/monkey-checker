@@ -9,3 +9,15 @@ Remember to tick "Use Git from the Windows Command Prompt"
 3. Click add button, choose "Google Galaxy Nexus - 4.2.2 - API 17 - 720x1280". Leave the default device name.
 4. Set its predefined to "320x480 - 160dpi".
 5. Start the device once and set superSU's automatic response to "Allow".
+6. Set no password for git command. Open git bash and run:
+```Bash
+vim ~/.git-credentials
+https://{username}:{password}@{git repo host}
+git config --global credential.helper store
+```
+Then go into crazymonkey repo and run
+```Bash
+git pull
+```
+input the username/password to auto save it.
+
