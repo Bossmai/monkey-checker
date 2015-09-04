@@ -12,8 +12,10 @@ pip install requests
 - Install [Git] (http://www.git-scm.com/download/win)
 Remember to tick "Use Git from the Windows Command Prompt"
 - Install [Genymotion] (https://www.genymotion.com/)
+- Install Android SDK & set sdk-tools (monkeyrunner & adb) to ENV.
 - Click add button, choose "Google Galaxy Nexus - 4.2.2 - API 17 - 720x1280". Leave the default device name.
 - Set its predefined to "320x480 - 160dpi".
+- Install ARM translation zip.
 - Start the device once and set superSU's automatic response to "Allow".
 - Set no password for git command. Open git bash and run:
 ```Bash
