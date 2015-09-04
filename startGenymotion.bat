@@ -1,0 +1,1 @@
+"C:\Program Files\Genymobile\Genymotion\player.exe" --vm-name "Google Galaxy Nexus - 4.2.2 - API 17 - 720x1280" &
