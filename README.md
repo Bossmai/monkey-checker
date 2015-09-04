@@ -29,3 +29,10 @@ git pull
 ```
 input the username/password to auto save it.
 
+
+
+## Usage
+```bat
+python monkey-checker.py #run all the jobs
+python monkey-checker.py {jobName} #run specific job
+```
