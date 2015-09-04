@@ -16,7 +16,7 @@ Remember to tick "Use Git from the Windows Command Prompt"
 - Click add button, choose "Google Galaxy Nexus - 4.2.2 - API 17 - 720x1280". Leave the default device name.
 - Set its predefined to "320x480 - 160dpi".
 - Install ARM translation zip.
-- Start the device once and set superSU's automatic response to "Allow".
+- Start the device once and set superSU's automatic response to "Allow". Allow unknown source.
 - Set no password for git command. Open git bash and run:
 ```Bash
 vim ~/.git-credentials
